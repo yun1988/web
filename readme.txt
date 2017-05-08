@@ -1,8 +1,4 @@
-Optional text descriptions for display on the site:
------------------------------------------------------------
-
-Pixel Agency is a simple minimalist, professional, responsive and interesting HTML template for business agencies. It is the most perfect way to showcase your agency�s portfolio (or your personal work) with a smooth and creative visual experience. This template is perfect for agencies, photographers, producers and minimalist lovers. It has been developed using latest technology can be customized with rapid ease. The simplicity of Pixel Agency will amaze you and it gives you the possibility to finish your site within a very short period of time.
-Features:
+基本使用技術
 ----------------------------------------------------------------
 -W3C validation html
 -HTML5 and CSS3	
@@ -13,7 +9,7 @@ Features:
 -Documented
 -Colors Variation
 
-Pages
+頁面
 ---------------------------------------------------------------- 
 -Home
 -About US
@@ -30,13 +26,8 @@ Pages
   -404
 -Contact Us
 
-You will receive:
--------------------------------------------------------------------
 
--HTML/CSS/JS/php/Fonts Files
--HTML Documentation
-
-Credit
+使用套件
 --------------------------------------------------------------------
 
 -Twitter Bootstrap (http://getbootstrap.com/)
@@ -53,14 +44,5 @@ Credit
 
 
 
-Nots:
--------------------------------------------------------------------
-
-All images viewed in the live preview are for demo purposes only but not included with your purchase file.
-
-Change Log
--------------------------------------------------------------------
-
--Version 1.1 - Initial Release
 
 
