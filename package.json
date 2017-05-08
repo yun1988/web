@@ -15,5 +15,18 @@
   "bugs": {
     "url": "https://github.com/yun1988/web/issues"
   },
-  "homepage": "https://github.com/yun1988/web#readme"
+  "homepage": "https://github.com/yun1988/web#readme",
+  "devDependencies": {
+    "angular": "^1.6.3",
+    "angular-route": "^1.6.3",
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.0",
+    "babel-preset-es2015": "^6.24.0",
+    "webpack": "^2.5.1"
+  },
+  "dependencies": {
+    "animate.css": "^3.5.2",
+    "font-awesome": "^4.7.0",
+    "normalize.css": "^6.0.0"
+  }
 }
