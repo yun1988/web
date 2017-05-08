@@ -8,8 +8,8 @@
 .section-11-box-icon-background,
 .logo-text samp,
 .demo_changer .demo-icon {
-    background: #00aef0;
-    background-color: #00aef0!important;
+    background: #005098;
+    background-color: #005098!important;
 }
 
 .logo-text span,
@@ -28,25 +28,25 @@
 .section19 .section19-404 h1,
 .section16 .address h4,
 .btn-seconday {
-    color: #00aef0!important;
+    color: #005098!important;
 }
 
 .btn-primary,
 .section-2-box-left {
-    border-color: #00aef0;
+    border-color: #005098;
 }
 
 .team-member1 .my-member-social ul li a:hover,
 .btn-primary:hover,
 .footer-top .submit-bgcolor:hover,
 .footer-bottom ul.social-buttons li a:hover {
-    background-color: #0393ca;
+    background-color: #005098;
 }
 
 .btn-primary:hover {
-    border-color: #0393ca;
+    border-color: #005098;
 }
 
 .over-bg {
-    background-color: rgba(0, 174, 240, 0.9);
+    background-color: rgba(0, 82, 152, 0.9);
 }

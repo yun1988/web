@@ -1,7 +1,7 @@
 {
   "name": "web",
   "version": "1.0.0",
-  "description": "基本使用技術\r ----------------------------------------------------------------\r -W3C validation html\r -HTML5 and CSS3\t\r -Fully Responsive\r -Bootstrap 3\r -Ajax PHP Contact Form\r -Font Awesome 500+ icons\r -Documented\r -Colors Variation",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
