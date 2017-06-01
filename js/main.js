@@ -6,76 +6,75 @@ Designed By: rkwebdesigns
 =========================================
 */
 
-(function ($) {
-	"use strict";
+(function($) {
+    "use strict";
 
-    jQuery(document).ready(function($){
-	    
-		//carousel active
+    jQuery(document).ready(function($) {
+
+        //carousel active
         $(".carousel-inner .item:first-child").addClass("active");
-		
-		//Fixed nav on scroll
-		$(document).scroll(function(e){
-			var scrollTop = $(document).scrollTop();
-			if(scrollTop > $('nav').height()){
-				//console.log(scrollTop);
-				$('nav').addClass('navbar-fixed-top');
-			}
-			else {
-				$('nav').removeClass('navbar-fixed-top');
-			}
-		});
-			
-		//Portfolio Popup
-		$('.magnific-popup').magnificPopup({type:'image'});
-		
-		
-		
-			
+
+        //Fixed nav on scroll
+        $(document).scroll(function(e) {
+            var scrollTop = $(document).scrollTop();
+            if (scrollTop > $('nav').height()) {
+                //console.log(scrollTop);
+                $('nav').addClass('navbar-fixed-top');
+            } else {
+                $('nav').removeClass('navbar-fixed-top');
+            }
+        });
+
+        //Portfolio Popup
+        $('.magnific-popup').magnificPopup({ type: 'image' });
+
+
+
+
     });
 
-	
 
-    jQuery(window).load(function(){
-		
-		//Numaric Counter
-		$('.counter').counterUp({
-          delay: 10,
-          time: 1000
-        });		
-				
-		//Portfolio container			
-		var $container = $('.portfolioContainer');
-		$container.isotope({
-			filter: '*',
-			animationOptions: {
-				duration: 750,
-				easing: 'linear',
-				queue: false
-			}
-		});
- 
-		$('.portfolioFilter a').on('click', function(){
-			$('.portfolioFilter a').removeClass('current');
-			$(this).addClass('current');
-	 
-			var selector = $(this).attr('data-filter');
-			$container.isotope({
-				filter: selector,
-				animationOptions: {
-					duration: 750,
-					easing: 'linear',
-					queue: false
-				}
-			 });
-			 return false;
-		}); 
 
-	});
+    jQuery(window).load(function() {
+
+        //Numaric Counter
+        $('.counter').counterUp({
+            delay: 10,
+            time: 1000
+        });
+
+        //Portfolio container			
+        var $container = $('.portfolioContainer');
+        $container.isotope({
+            filter: '*',
+            animationOptions: {
+                duration: 750,
+                easing: 'linear',
+                queue: false
+            }
+        });
+
+        $('.portfolioFilter a').on('click', function() {
+            $('.portfolioFilter a').removeClass('current');
+            $(this).addClass('current');
+
+            var selector = $(this).attr('data-filter');
+            $container.isotope({
+                filter: selector,
+                animationOptions: {
+                    duration: 750,
+                    easing: 'linear',
+                    queue: false
+                }
+            });
+            return false;
+        });
+
+    });
 
     //CONTACT FORM 
-      
-    $("#contact").submit(function (e) {
+
+    $("#contact").submit(function(e) {
         e.preventDefault();
         var name = $("#cf-name").val();
         var email = $("#cf-email").val();
@@ -92,28 +91,27 @@ Designed By: rkwebdesigns
                 type: "POST",
                 url: "sendmail.php",
                 data: dataString,
-                success: function () {
+                success: function() {
                     $('.success').fadeIn(1000);
                     $('.error').fadeOut(500);
                 }
             });
-        }
-        else {
+        } else {
             $('.error').fadeIn(1000);
             $('.success').fadeOut(500);
         }
         return false;
     });
 
-	//TESTIMONIALS SLIDER
-	$(".testimonial_slider").owlCarousel({
-		navigation : false,
-		items: 2,
-		autoPlay: true,
-		pagination: false,
-	});
-	
-	//Wow js
-	new WOW().init();
-	 
-}(jQuery));	
+    //TESTIMONIALS SLIDER
+    $(".testimonial_slider").owlCarousel({
+        navigation: false,
+        items: 2,
+        autoPlay: true,
+        pagination: false,
+    });
+
+    //Wow js
+    new WOW().init();
+
+}(jQuery));

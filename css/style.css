@@ -157,7 +157,6 @@ p {
     line-height: 26px;
 }
 
-
 .section-margine {
     margin: 70px 0 0 0;
 }
@@ -322,7 +321,7 @@ p {
     padding: 10px;
 }
 
-.dropdown-menu> li >a:hover {
+.dropdown-menu>li>a:hover {
     color: #fff !important;
     background-color: #00aef0;
 }
@@ -422,7 +421,7 @@ p {
 
 .section-1-box-icon-background i {
     line-height: 80px;
-    color:#ffffff;
+    color: #ffffff;
 }
 
 .section-1-box h4 {
@@ -703,7 +702,6 @@ p {
     position: relative;
     padding: 75px 72px 60px;
     margin: 55px 15px 0 15px;
-
 }
 
 .single_testimonial .testmonial_img {
@@ -1142,13 +1140,15 @@ p {
     font-size: 13px;
 }
 
-.section-14-box .comments a{
+.section-14-box .comments a {
     color: #222;
     margin: 0 0 0 10px;
 }
-.section-14-box .date span i{
+
+.section-14-box .date span i {
     margin-right: 10px;
 }
+
 .section-14-box .comments a:hover {
     text-decoration: underline;
 }
@@ -1217,7 +1217,7 @@ p {
 
 .comment-form-container {
     margin: 70px auto;
-;
+    ;
 }
 
 .comment-form-container h4 {
@@ -1236,6 +1236,7 @@ p {
     border-radius: 0px;
     padding: 10px 15px;
 }
+
 
 /************************************
 Section 15
@@ -1262,7 +1263,7 @@ Section 15
 
 .inner-title h2 {
     color: #fff;
-;
+    ;
 }
 
 .breadcrumbs ul {
@@ -1372,9 +1373,11 @@ Section 15
     color: #00aef0;
 }
 
-.map{
+.map {
     margin: 20px 0;
 }
+
+
 /************************************
 25)Section 17
 *************************************/
@@ -1419,21 +1422,26 @@ Section 15
 .team-member1 .team-member1-details .sub {
     margin: 10px 0 10px 0;
 }
+
 .team-member1 .my-member-details {
     color: #333;
 }
+
 .team-member1 .my-member-social {
     transition: all 0.3s ease 0s;
 }
-.team-member1 .my-member-social ul{
+
+.team-member1 .my-member-social ul {
     margin: 0;
-    padding:15px 10px;
+    padding: 15px 10px;
 }
+
 .team-member1 .my-member-social ul li {
     display: inline-block;
     list-style: outside none none;
     margin-top: 6px;
 }
+
 .team-member1 .my-member-social ul li a {
     background-color: #fff;
     border: 1px solid #333;
@@ -1446,11 +1454,13 @@ Section 15
     width: 25px;
     margin-right: 5px;
 }
+
 .team-member1 .my-member-social ul li a:hover {
     background-color: #3498db;
     border: 1px solid #3498db;
     color: #fff;
 }
+
 
 /************************************
 26)Section 18
@@ -1494,7 +1504,7 @@ Section 15
 
 .section19 {
     margin: 100px auto 100px auto;
-;
+    ;
 }
 
 .section19 .section19-404 {
